@@ -1,9 +1,8 @@
-<p align="center"> 
- Trabalho Prático 01
+# Trabalho Prático 01
+
+### Pong em MonoGame com C# 
   
-Pong em MonoGame com C# 
-  
-Engenharia e Desenvolvimento de Jogos Digitais - Técnicas de Desenvolvimento de Videojogos - Gabriel Rosas nº27943 / Ricardo Costa nº27927 / João Reis 27917 
+### Engenharia e Desenvolvimento de Jogos Digitais - Técnicas de Desenvolvimento de Videojogos - Gabriel Rosas nº27943 / Ricardo Costa nº27927 / João Reis 27917 
 
 # __Indíce__
 1. [__Introdução__](#Introdução)
@@ -68,7 +67,7 @@ Para concluir "Pong" é mais do que um simples jogo. É um marco na história do
 
 <a name="program"></a>
 ## 	__Program.cs:__
-
+Este código é resposável pela estrutura básica para iniciar o jogo Pong através da criação da classe Game1 e apenas a executa caso seja compilado em Windows ou Linux.
 ```
 #region Using Statements
 using System;
@@ -96,7 +95,7 @@ namespace Pong {
 
 <a name="bar"></a>
 ## 	__Bar.cs:__
-
+É composto por uma classe representa uma barra de jogo no Pong, que inclui métodos para mover a barra, controlar a velocidade da mesma e obter informações sobre a sua posição e textura.
 ```
 using System.Runtime.InteropServices;
 using Microsoft.Xna.Framework.Audio;
@@ -197,6 +196,7 @@ namespace Pong {
 
 <a name="ball"></a>
 ## 	__Ball.cs:__
+O ball.cs define a lógica básica de uma bola no jogo Pong, incluindo o movimento, as colisões e as interações com as barras dos jogadores.
 
 ```
 using System;
@@ -384,6 +384,7 @@ namespace Pong {
 
 <a name="cpucontroller"></a>
 ## 	__CpuController.cs:__
+Cpucontrolle.cs controla o comportamento da barra, controlada pelo computador no jogo Pong, movimentando a barra para mais perto da posição vertical da bola quando necessário e também ajusta-se para o centro do campo, se necessário.
 
 ```
 using System;
@@ -453,7 +454,7 @@ namespace Pong {
 
 <a name="game1"></a>
 ## 	__Game1.cs:__
-
+Esta classe controla o ciclo de vida do jogo Pong. Atualiza a lógica e desenha o campo, a bola, as barras, e o score com as devidas dimensões na tela.
 ```
 #region Using Statements
 using System;
@@ -658,6 +659,7 @@ namespace Pong {
 
 <a name="score"></a>
 ## 	__Score.cs:__
+Score.cs é responsável por gerir as pontuações do jogo Pong. Além disso, fornece métodos para manipular a pontuação, verificar o fim do jogo e determinar o vencedor.
 
 ```
 using System;
@@ -727,7 +729,7 @@ namespace Pong {
 
 <a name="balloutmanager"></a>
 ## 	__BallOutManager.cs:__
-
+Esta classe observa o comportamento da bola quando ela sai dos limites do campo. Por outro lado, reposiciona a bola, faz a devida contagem dos pontos e reproduz os efeitos sonoros.
 ```
 #region Using Statements
 using System;
@@ -858,7 +860,7 @@ namespace Pong {
 }
 ```
 # __Conclusão:__
-A análise detalhada do código do jogo Pong foi muito esclarecedora. Permitiu-nos compreender profundamente como o jogo funciona por dentro, desde a gestão das pontuações até ao movimento das barras e da bola. Esta análise revelou-se importante para identificar áreas de melhoria e adaptação futuras. Em resumo, proporcionou-nos uma visão completa e clara do funcionamento interno do jogo Pong.
+A análise detalhada do código do jogo Pong foi muito esclarecedora. Permitiu-nos compreender profundamente como este jogo funciona por dentro, desde a gestão das pontuações até ao movimento das barras e da bola. Esta análise revelou-se importante para identificar áreas de melhoria e adaptação futuras. Em resumo, proporcionou-nos uma visão completa e clara do funcionamento interno do jogo Pong.
 <p align="center">
  <img src="https://i.pinimg.com/564x/41/29/cb/4129cbe2260f5d72002da94a83de4b0c.jpg"  alt="PongPc" width=300>
 </p>
