@@ -27,23 +27,30 @@ Para concluir "Pong" é mais do que um simples jogo. É um marco na história do
 
 ## __Estrutura de Pastas:__
 
-* __Pong/__
-    - |-- Content/
-    - |-- Fonts/
-    - |-- SpriteSheets/
-    - |-- Sounds/
+* __Pong:__
+    - __Content:__
+      * Sounds
+      * SpriteSheets
+     
+<p align="center">
+ <img src="https://github.com/hirako2000/MonoPingPong/blob/master/PongContent/PongContentContent/PongBall.png"  alt="Ball" width=15>
+</p>
+
+<p align="center">
+ <img src="https://github.com/hirako2000/MonoPingPong/blob/master/PongContent/PongContentContent/PongBar.png"  alt="Ball" width=15>
+</p>
       
-* __Code/__
-    - [|-- Program.cs](#program)
-    - [|-- Bar.cs](#bar)
-    - [|-- Ball.cs](#ball)  
-    - [|-- CpuController.cs](#cpucontroller)
-    - [|-- Game1.cs](#game1)
-    - [|-- Score.cs](#score)
-    - [|-- BallOutManager.cs](#balloutmanager)
+* __Code:__
+    - [ Program.cs](#program)
+    - [ Bar.cs](#bar)
+    - [ Ball.cs](#ball)  
+    - [ CpuController.cs](#cpucontroller)
+    - [ Game1.cs](#game1)
+    - [ Score.cs](#score)
+    - [ BallOutManager.cs](#balloutmanager)
 
 <a name="analise"></a>
-# __Análise dos Códigos Disponibilizados__
+# __Análise e Interpretação dos Códigos do __
 
 <a name="program"></a>
 ## 	__Program.cs:__
@@ -72,8 +79,10 @@ namespace Pong {
     }
 #endif
 ```
+
 <a name="bar"></a>
 ## 	__Bar.cs:__
+
 ```
 using System.Runtime.InteropServices;
 using Microsoft.Xna.Framework.Audio;
@@ -171,6 +180,7 @@ namespace Pong {
     }
 }
 ```
+
 <a name="ball"></a>
 ## 	__Ball.cs:__
 
@@ -357,8 +367,10 @@ namespace Pong {
     }
 }
 ```
+
 <a name="cpucontroller"></a>
 ## 	__CpuController.cs:__
+
 ```
 using System;
 using System.Collections.Generic;
@@ -424,8 +436,10 @@ namespace Pong {
     }
 }
 ```
+
 <a name="game1"></a>
 ## 	__Game1.cs:__
+
 ```
 #region Using Statements
 using System;
@@ -627,8 +641,10 @@ namespace Pong {
     }
 }
 ```
+
 <a name="score"></a>
 ## 	__Score.cs:__
+
 ```
 using System;
 using Microsoft.Xna.Framework.Graphics;
@@ -694,8 +710,10 @@ namespace Pong {
     }
 }
 ```
+
 <a name="balloutmanager"></a>
 ## 	__BallOutManager.cs:__
+
 ```
 #region Using Statements
 using System;
