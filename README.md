@@ -846,7 +846,7 @@ namespace Pong {
 ```
 # __Conclusão__
 <p align="center">
- <img src="(https://www.pinterest.co.uk/pin/6122149467611418/)"  alt="PongPc" width=15>
+ <img src="https://i.pinimg.com/564x/41/29/cb/4129cbe2260f5d72002da94a83de4b0c.jpg"  alt="PongPc" width=300>
 </p>
 
 A análise detalhada do código do jogo Pong foi muito esclarecedora. Permitiu-nos compreender profundamente como o jogo funciona por dentro, desde a gestão das pontuações até ao movimento das barras e da bola. Esta análise revelou-se importante para identificar áreas de melhoria e adaptação futuras. Em resumo, proporcionou-nos uma visão completa e clara do funcionamento interno do jogo Pong.
