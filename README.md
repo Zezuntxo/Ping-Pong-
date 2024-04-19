@@ -1,9 +1,11 @@
-# Trabalho Prático - Pong em MonoGame com C# - Engenharia e Desenvolvimento de Jogos Digitais - Gabriel Rosas nº27943 / Ricardo Costa nº27927 / João Reis 27919 
+# Trabalho Prático 01
+Pong em MonoGame com C# 
+Engenharia e Desenvolvimento de Jogos Digitais - Técnicas de Desenvolvimento de Videojogos - Gabriel Rosas nº27943 / Ricardo Costa nº27927 / João Reis 27917 
 
 # __Indíce__
 1. [__Introdução__](#Introdução)
-2. [__Implementação__](#Implementação)
-3. [____](#Comandos)
+2. [__Procedimentos do Jogo__](#procedimentos)
+3. [__Implementação__](#Implementação)
 4. [__Decisões de Implementação__](#decisoes)
 5. [__Interpretação do Código-Fonte__](#analise)
 6. [__Conclusão__](#Conclusão)
@@ -21,6 +23,16 @@ O ambiente minimalista de "Pong", com os seus gráficos simples e sons eletróni
 Desde o seu lançamento, "Pong" inspirou inúmeras variações e continua a ser uma fonte de inspiração para os desenvolvedores de jogos até hoje. A sua influência é evidente em muitos dos títulos modernos, mesmo aqueles que exploram territórios completamente diferentes.
 Para concluir "Pong" é mais do que um simples jogo. É um marco na história dos videojogos, um símbolo de uma era em que a diversão digital estava apenas a começar. A sua simplicidade, jogabilidade viciante e legado duradouro garantem que continuará a ser lembrado e apreciado por gerações futuras.
 
+<a name="procedimentos"></a>
+# __Procedimentos do Jogo__
+
+* __Objetivo:__
+    - O primeiro jogador a pontuar três vezes ganha;
+* __Controlos:__
+    - __Setas superior e inferior:__ Move a barra para cima e para baixo de forma a evitar que a bola saia dos limites do campo;
+* __Score:__
+    - A pontuação é composta por um melhor de 5.
+      
 # __Implementação__
 
 ## __Estrutura de Pastas:__
