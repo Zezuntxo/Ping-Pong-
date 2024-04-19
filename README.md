@@ -1,2 +1,7 @@
 # Pong 
+"Pong" é um dos primeiros videojogos, um clássico intemporal que inaugurou uma era de entretenimento digital. Desenvolvido pela Atari e lançado em 1972, este jogo simples, mas cativante, conquistou milhões de jogadores em todo o mundo.
+A mecânica de "Pong" é direta e envolvente. Dois jogadores controlam cada um uma raquete no ecrã, movendo-a para cima e para baixo para rebater uma bola virtual. O objetivo é simples: fazer a bola passar pela raquete do adversário para marcar pontos. Parece fácil, mas a velocidade da bola aumenta à medida que o jogo avança, exigindo reflexos rápidos e precisão dos jogadores.
+O ambiente minimalista de "Pong", com os seus gráficos simples e sons eletrónicos, transporta os jogadores para uma atmosfera nostálgica. A simplicidade do design é parte do seu charme intemporal, tornando-o acessível e viciante para jogadores de todas as idades.
+Desde o seu lançamento, "Pong" inspirou inúmeras variações e continua a ser uma fonte de inspiração para os desenvolvedores de jogos até hoje. A sua influência é evidente em muitos dos títulos modernos, mesmo aqueles que exploram territórios completamente diferentes.
+Para concluir "Pong" é mais do que um simples jogo. É um marco na história dos videojogos, um símbolo de uma era em que a diversão digital estava apenas a começar. A sua simplicidade, jogabilidade viciante e legado duradouro garantem que continuará a ser lembrado e apreciado por gerações futuras.
 
