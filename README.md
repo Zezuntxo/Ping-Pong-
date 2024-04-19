@@ -23,3 +23,28 @@ O ambiente minimalista de "Pong", com os seus gráficos simples e sons eletróni
 Desde o seu lançamento, "Pong" inspirou inúmeras variações e continua a ser uma fonte de inspiração para os desenvolvedores de jogos até hoje. A sua influência é evidente em muitos dos títulos modernos, mesmo aqueles que exploram territórios completamente diferentes.
 Para concluir "Pong" é mais do que um simples jogo. É um marco na história dos videojogos, um símbolo de uma era em que a diversão digital estava apenas a começar. A sua simplicidade, jogabilidade viciante e legado duradouro garantem que continuará a ser lembrado e apreciado por gerações futuras.
 
+# __Implementação__
+
+## __Estrutura de Pastas:__
+
+* __Pong/__
+    - |-- Content/
+    - |-- Fonts/
+    - |-- SpriteSheets/
+    - |-- Sounds/
+      
+* __Code/__
+    - [|-- Program.cs](#program)
+    - [|-- Bar.cs](#bar)
+    - [|-- Ball.cs](#ball)  
+    - [|-- CpuController.cs](#cpucontroller)
+    - [|-- Game1.cs](#game1)
+    - [|-- Score.cs](#score)
+    - [|-- Menu.cs](#menu)
+    - [|-- BallOutManager.cs](#balloutmanager)
+
+
+
+
+
+
