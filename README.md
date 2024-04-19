@@ -1,29 +1,27 @@
 # Trabalho Prático 01
 
-### Pong em MonoGame com C# 
+#### Pong em MonoGame com C# 
   
-### Engenharia e Desenvolvimento de Jogos Digitais - Técnicas de Desenvolvimento de Videojogos - Gabriel Rosas nº27943 / Ricardo Costa nº27927 / João Reis 27917 
+##### Engenharia e Desenvolvimento de Jogos Digitais - Técnicas de Desenvolvimento de Videojogos 
+###### Gabriel Rosas nº27943 / Ricardo Costa nº27927 / João Reis 27917 
 
 # __Indíce__
 1. [__Introdução__](#Introdução)
 2. [__Procedimentos do Jogo__](#procedimentos)
 3. [__Implementação__](#Implementação)
-4. [__Decisões de Implementação__](#decisoes)
-5. [__Interpretação do Código-Fonte__](#analise)
-6. [__Conclusão__](#Conclusão)
+4. [__Interpretação do Código-Fonte__](#analise)
+5. [__Conclusão__](#Conclusão)
 
 # __Introdução__
 
+Neste trabalho o professor propos fazer a análise de um jogo à nossa escolha em monogame c# e apresentá-lo à turma. O objetivo é analisar e interpretar o jogo desde os códigos, às imagens e sons, ao processo criativo em destaque à logica e à estrutura do mesmo e às diversas ferramentas que os donos dos jogos utilizaram.
+Pong é um dos primeiros e mais emblemáticos videojogos, lançado pela Atari em 1972. Dois jogadores controlam raquetes para rebater uma bola virtual, tentando superar o adversário. Sua mecânica simples e envolvente, combinada com gráficos minimalistas e sons eletrônicos, criou uma experiência cativante e nostálgica. "Pong" inspirou inúmeras variações e continua a influenciar os desenvolvedores de jogos hoje, sendo um marco na história dos videojogos.
 
 <p align="center">
  <img src="https://raw.githubusercontent.com/MonoGame/MonoGame.Samples/3.8.1/Images/AutoPong_1.gif"  alt="Pong" width=700>
 </p>
 
-"Pong" é um dos primeiros videojogos, um clássico intemporal que inaugurou uma era de entretenimento digital. Desenvolvido pela Atari e lançado em 1972, este jogo simples, mas cativante, conquistou milhões de jogadores em todo o mundo.
-A mecânica de "Pong" é direta e envolvente. Dois jogadores controlam cada um uma raquete no ecrã, movendo-a para cima e para baixo para rebater uma bola virtual. O objetivo é simples: fazer a bola passar pela raquete do adversário para marcar pontos. Parece fácil, mas a velocidade da bola aumenta à medida que o jogo avança, exigindo reflexos rápidos e precisão dos jogadores.
-O ambiente minimalista de "Pong", com os seus gráficos simples e sons eletrónicos, transporta os jogadores para uma atmosfera nostálgica. A simplicidade do design é parte do seu charme intemporal, tornando-o acessível e viciante para jogadores de todas as idades.
-Desde o seu lançamento, "Pong" inspirou inúmeras variações e continua a ser uma fonte de inspiração para os desenvolvedores de jogos até hoje. A sua influência é evidente em muitos dos títulos modernos, mesmo aqueles que exploram territórios completamente diferentes.
-Para concluir "Pong" é mais do que um simples jogo. É um marco na história dos videojogos, um símbolo de uma era em que a diversão digital estava apenas a começar. A sua simplicidade, jogabilidade viciante e legado duradouro garantem que continuará a ser lembrado e apreciado por gerações futuras.
+
 
 <a name="procedimentos"></a>
 # __Procedimentos do Jogo__
