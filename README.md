@@ -47,6 +47,9 @@ Para concluir "Pong" é mais do que um simples jogo. É um marco na história do
     - [ Score.cs](#score)
     - [ BallOutManager.cs](#balloutmanager)
 
+- __Pong/:__ Contém recursos como imagens, fontes e sons.
+- __Code/:__ Contém o código-fonte do jogo organizado em entidades, gerenciadores, telas e ajudantes.
+
 <a name="analise"></a>
 # __Análise e Interpretação dos Códigos do __
 
@@ -842,4 +845,8 @@ namespace Pong {
 }
 ```
 # __Conclusão__
+<p align="center">
+ <img src="(https://www.pinterest.co.uk/pin/6122149467611418/)"  alt="PongPc" width=15>
+</p>
+
 A análise detalhada do código do jogo Pong foi muito esclarecedora. Permitiu-nos compreender profundamente como o jogo funciona por dentro, desde a gestão das pontuações até ao movimento das barras e da bola. Esta análise revelou-se importante para identificar áreas de melhoria e adaptação futuras. Em resumo, proporcionou-nos uma visão completa e clara do funcionamento interno do jogo Pong.
