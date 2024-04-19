@@ -32,11 +32,6 @@ Para concluir "Pong" é mais do que um simples jogo. É um marco na história do
       * Sounds
       * SpriteSheets
      
-* __Pong:__
-    - __Content:__
-      * Sounds
-      * SpriteSheets
-     
 <p align="center">
  <img src="https://github.com/hirako2000/MonoPingPong/blob/master/PongContent/PongContentContent/PongBall.png"  alt="Ball" width=15 hspace="20" >
  <img src="https://github.com/hirako2000/MonoPingPong/blob/master/PongContent/PongContentContent/PongBar.png"  alt="Ball" width=20 hspace="20" >
