@@ -37,6 +37,7 @@ Para concluir "Pong" é mais do que um simples jogo. É um marco na história do
  <img src="https://github.com/hirako2000/MonoPingPong/blob/master/PongContent/PongContentContent/PongBar.png"  alt="Ball" width=20 hspace="20" >
 </p>
 
+ __PongContent:__ É uma pasta com os spritesheets e sons do jogo.
       
 * __Code:__
     - [ Program.cs](#program)
@@ -46,9 +47,8 @@ Para concluir "Pong" é mais do que um simples jogo. É um marco na história do
     - [ Game1.cs](#game1)
     - [ Score.cs](#score)
     - [ BallOutManager.cs](#balloutmanager)
-
-- __Pong/:__ Contém recursos como imagens, fontes e sons.
-- __Code/:__ Contém o código-fonte do jogo organizado em entidades, gerenciadores, telas e ajudantes.
+      
+### __Code/:__ É uma pasta com o código-fonte do jogo.
 
 <a name="analise"></a>
 # __Análise e Interpretação dos Códigos do __
