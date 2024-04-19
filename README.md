@@ -844,3 +844,4 @@ namespace Pong {
 }
 ```
 # __Conclusão__
+A análise detalhada do código do jogo Pong foi muito esclarecedora. Permitiu-nos compreender profundamente como o jogo funciona por dentro, desde a gestão das pontuações até ao movimento das barras e da bola. Esta análise revelou-se importante para identificar áreas de melhoria e adaptação futuras. Em resumo, proporcionou-nos uma visão completa e clara do funcionamento interno do jogo Pong.
