@@ -458,7 +458,7 @@ namespace Pong {
 
 <a name="game1"></a>
 ## 	__Game1.cs:__
-Esta classe controla o ciclo de vida do jogo Pong. Atualiza a lógica e desenha o campo, a bola, as barras, e o score com as devidas dimensões na tela.
+Esta classe controla o ciclo de vida do jogo Pong. Atualiza a lógica e desenha o campo, a bola, as barras, e o score com as devidas dimensões na tela. Esta classe inicia com declaração das variáveis responsáveis por gerir a componente gráfica e texturas. De seguida, inserem as dimensões da janela do jogo, o espaço entre a barra e os limites da tela e também os métodos privados que adicionam a barra do jogador, a barra controlada pelo cpu, o verificador das saídas da bola, o score e a cpucontroller. Mais abaixo adiciona todas as texturas e efeitos sonoros, executa a criação das barras, da bola, o score e cpucontroller. Depois disto, iniciam-se as verificações, isto é, se foi pressionado o botão "Exit", se o jogo acabou redefine o score para 0 e as as barras e a bola para as posições iniciais e centriais, se a bola saiu do campo e se for necessário da reset às velocidades das barras, verefica também as colisões e movimento da barra controlada pela cpu. Por fim, desenha todas as texuras, as barras, a bola, o score e o campo. Após verifica se o jogador ganhou e executa a função "win()" e se perdeu executa a função "GameOver()". Para concluir adiciona a mensagem quando o jogo acabar, de vitória ou derrota, e desenha a rede no meio do campo.
 ```
 #region Using Statements
 using System;
