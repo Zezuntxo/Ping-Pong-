@@ -201,7 +201,7 @@ namespace Pong {
 
 <a name="ball"></a>
 ## 	__Ball.cs:__
-O ball.cs define a lógica básica de uma bola no jogo Pong, incluindo o movimento, as colisões e as interações com as barras dos jogadores.
+O ball.cs define a lógica básica de uma bola no jogo Pong, incluindo o movimento, as colisões e as interações com as barras dos jogadores. Tal como no código da barra, a ball.cs é semelhante. Ou seja contém as texturas, os efeitos sonoros, a altura e a largura, as posições, as colisões, os mivemtos verticais e horizontais, as dimensões iniciais, entre outros. Além disso, a lógica está presente de igual forma neste código, isto é, movimentos e colisões relacionados entre si e com as bordas, cálculo os desvios, verificações de colisões e a reprodução dos efeitos sonoros, respetivamente.
 
 ```
 using System;
