@@ -733,7 +733,7 @@ namespace Pong {
 
 <a name="balloutmanager"></a>
 ## 	__BallOutManager.cs:__
-Esta classe observa o comportamento da bola quando ela sai dos limites do campo. Por outro lado, reposiciona a bola, faz a devida contagem dos pontos e reproduz os efeitos sonoros.
+Esta classe observa o comportamento da bola quando ela sai dos limites do campo. Por outro lado, reposiciona a bola, faz a devida contagem dos pontos e reproduz os efeitos sonoros. Esta classe inicia por declara variáveis como o efeito sonoro da bola quando sai dos limites do campo, a bola, a largura do campo, os limites entre a esquerda e a direita do campo, numero de frames de atraso antes da bola sair, o responsável por contar o atraso antes de resetar a bola e o score. Depois inicializa a bola, a largura do campo, o efeito sonoro e o score. De seguida, o método para mover a bola e os respestivos atrasos da mesma e tambémm verifica se a bola saiu do campo, se pela esquerda se pela direita. Por fim, blocos de código responsáveis por incrementar as pontuações no caso de sair dos limites e a receber a bola.
 ```
 #region Using Statements
 using System;
