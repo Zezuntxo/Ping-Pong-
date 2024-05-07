@@ -663,7 +663,7 @@ namespace Pong {
 
 <a name="score"></a>
 ## 	__Score.cs:__
-Score.cs é responsável por gerir as pontuações do jogo Pong. Além disso, fornece métodos para manipular a pontuação, verificar o fim do jogo e determinar o vencedor.
+Score.cs é responsável por gerir as pontuações do jogo Pong. Além disso, fornece métodos para manipular a pontuação, verificar o fim do jogo e determinar o vencedor. Começa por definir variávies para armazenar a pontuação o jogador e do processador e a fonte usada para exibir a pontuação na tela. Depois define a pontuação necessária para vencer o jogo e por fim, adiciona os métodos para incrementar as pontuações do jogador e do processador, para exibir a pontuação, para obter ambas as pontuações, para vereficar se o jogo acabou, se ganhou o jogador/cpu e para resetar as pontuações na tela quando o jogo é reiniciado.
 
 ```
 using System;
