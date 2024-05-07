@@ -389,8 +389,7 @@ namespace Pong {
 
 <a name="cpucontroller"></a>
 ## 	__CpuController.cs:__
-Cpucontrolle.cs controla o comportamento da barra, controlada pelo computador no jogo Pong, movimentando a barra para mais perto da posição vertical da bola quando necessário e também ajusta-se para o centro do campo, se necessário.
-
+Cpucontrolle.cs controla o comportamento da barra, controlada pelo computador no jogo Pong, movimentando a barra para mais perto da posição vertical da bola quando necessário e também ajusta-se para o centro do campo, se necessário. Resumindo, inicia com as declarações das variáveis controladas pelo processador, de seguida, adiciona as constantes relacionadas com a dimensão vertical e proximidade de tolerância da barra. A seguir, é criado a classe cpucontroller e por fim, são inseridos os métodos públicos que atualizam e movem a barra próxima da bola controlado pelo cpu e também os métodos privados que redefinem a barra para a posição central e movem a barra mais próximo de um ponto específico também controlado pelo cpu.
 ```
 using System;
 using System.Collections.Generic;
