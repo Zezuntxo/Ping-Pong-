@@ -65,7 +65,14 @@ Pong é um dos primeiros e mais emblemáticos videojogos, lançado pela Atari em
 
 <a name="program"></a>
 ## 	__Program.cs:__
-Este código é resposável pela estrutura básica para iniciar o jogo Pong através da criação da classe Game1 e apenas a executa caso seja compilado em Windows ou Linux.
+Este código é resposável pela estrutura básica para iniciar o jogo Pong através da criação da classe Game1 e apenas a executa caso seja compilado em Windows ou Linux. Ou seja, este código é um exemplo básico de um ponto de entrada para uma aplicação de jogo (um jogo de Pong, neste caso) escrita em C#. Ele começa por definir uma classe principal Program com um método Main, que inicia o jogo com a criação de uma static class Game1 e depois executa o jogo. O atributo [STAThread] refere que a aplicação deve ser executada em um único thread de aplicação com um modelo de apartamento de thread COM. O bloco de código using é utilizado para garantir que a static class Game1 seja libertada após ser executada.
+
+
+
+
+
+
+
 ```
 #region Using Statements
 using System;
