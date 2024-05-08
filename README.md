@@ -15,7 +15,7 @@
 # __Introdução__
 
 Neste trabalho o professor propos fazer a análise de um jogo à nossa escolha em monogame c# e apresentá-lo à turma. O objetivo é analisar e interpretar o jogo desde os códigos, às imagens e sons, ao processo criativo em destaque à logica e à estrutura do mesmo e às diversas ferramentas que os donos dos jogos utilizaram.
-Pong é um dos primeiros e mais emblemáticos videojogos, lançado pela Atari em 1972. Dois jogadores controlam raquetes para rebater uma bola virtual, tentando superar o adversário. Sua mecânica simples e envolvente, combinada com gráficos minimalistas e sons eletrônicos, criou uma experiência cativante e nostálgica. "Pong" inspirou inúmeras variações e continua a influenciar os desenvolvedores de jogos hoje, sendo um marco na história dos videojogos.
+Pong é um dos primeiros e mais emblemáticos videojogos, lançado pela Atari em 1972. Dois jogadores controlam raquetes para rebater uma bola virtual, tentando superar o adversário. A mecânica é simples e envolvente, combinada com gráficos minimalistas e sons eletrônicos, criou uma experiência cativante e nostálgica. "Pong" inspirou inúmeras variações e continua a influenciar os desenvolvedores de jogos hoje, sendo um marco na história dos videojogos.
 
 <p align="center">
  <img src="https://raw.githubusercontent.com/MonoGame/MonoGame.Samples/3.8.1/Images/AutoPong_1.gif"  alt="Pong" width=700>
