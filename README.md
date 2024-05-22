@@ -18,7 +18,7 @@ Neste trabalho o professor propos fazer a análise de um jogo à nossa escolha e
 Pong é um dos primeiros e mais emblemáticos videojogos, lançado pela Atari em 1972. Dois jogadores controlam raquetes para rebater uma bola virtual, tentando superar o adversário. A mecânica é simples e envolvente, combinada com gráficos minimalistas e sons eletrônicos, criou uma experiência cativante e nostálgica. "Pong" inspirou inúmeras variações e continua a influenciar os desenvolvedores de jogos hoje, sendo um marco na história dos videojogos.
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/MonoGame/MonoGame.Samples/3.8.1/Images/AutoPong_1.gif"  alt="Pong" width=700>
+ <img src="[https://raw.githubusercontent.com/MonoGame/MonoGame.Samples/3.8.1/Images/AutoPong_1.gif](https://imgur.com/a/71zHgp4)"  alt="Pong" width=700>
 </p>
 
 
